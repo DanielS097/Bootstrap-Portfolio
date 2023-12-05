@@ -4,6 +4,39 @@
     box-sizing: border-box;
 }
 
-.content h1{
-color: brown;
+
+.content {
+    background-color: beige;
+}
+
+
+.image {
+    border-radius: 25%;
+    width: 25%;
+    height: 25%;
+    position: relative;
+}
+
+.my-name {
+    color: rgb(255, 179, 80);
+    text-decoration:underline;
+}
+
+
+.work-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.my-skills {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
